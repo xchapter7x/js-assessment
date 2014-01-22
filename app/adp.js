@@ -28,7 +28,7 @@ second argument passed to listFiles
 
 =========================================================
 -permute-
-write a function permute should take an array and output and array or arrays
+write a function permute should take an array and output and array of arrays
 with each permutation possible for the values in the given 
 array
 */
