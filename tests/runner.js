@@ -9,7 +9,7 @@ var tests = [
   'tests/app/flowControl',
   //'tests/app/logicalOperators',
   //'tests/app/regex',
-  //'tests/app/recursion',
+  'tests/app/recursion'
   //'tests/app/numbers',
   //'tests/app/count'
 ];
