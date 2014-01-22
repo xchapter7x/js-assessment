@@ -20,13 +20,16 @@ with each permutation possible for the values in the given
 array
 */
 define(function() {
-  return {
-    listFiles: function(data, dirName) {
-
-    },
-
-    permute: function(arr) {
-
+    function listFiles(data, dirName) {
+        
     }
-  };
+    
+    function permute(arr) {
+    
+    }
+    
+    return {
+        listFiles: listFiles,
+        permute: permute
+    };
 });
