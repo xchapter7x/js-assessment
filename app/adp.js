@@ -32,7 +32,9 @@ with each permutation possible for the values in the given
 array
 */
 
-define(function() {
+define([
+  'underscore'
+], function(_) {
     function fizzBuzz(num) {
         
     }
