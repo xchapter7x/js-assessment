@@ -10,7 +10,6 @@ if the number is divisible by 3 and 5, the function should return
 otherwise the function should return the number, or false if no number
 was provided or the value provided is not a number
 
-
 =========================================================
 -listFiles-
 write a function listFiles, when given a single argument, 
@@ -28,7 +27,7 @@ second argument passed to listFiles
 
 =========================================================
 -permute-
-write a function permute should take an array and output and array of arrays
+write a function permute should take an array and output and array or arrays
 with each permutation possible for the values in the given 
 array
 */

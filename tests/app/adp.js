@@ -4,8 +4,10 @@ if (typeof define !== 'function') { var define = require('amdefine')(module); }
 if (typeof expect !== 'function') { var expect = require('expect.js'); }
 
 define([
-  'app/adp'
-], function(answers) {
+  '../../app/adp',
+  'underscore'
+], function(answers, _) {
+    
   describe('flow control', function() {
     it('should return the argument if it does not meet any divisible criteria', function() {
       expect(answers.fizzBuzz(2)).to.eql(2);
@@ -147,6 +149,7 @@ define([
     ];
 
     it('you should be able to return the permutations of an array', function() {
+      var _ = require("underscore");
       var result = answers.permute(arr);
       var resultStrings = _.map(result, function(r) { return r.join(''); });
 
